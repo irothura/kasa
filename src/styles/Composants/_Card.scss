@@ -19,6 +19,7 @@
     & img {
         display: flex;
         width: 100%;
+        max-width: 340px;
         @include small-radius;
         object-fit: cover;
     }
